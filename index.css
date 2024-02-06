@@ -90,6 +90,7 @@ html, body {
 
 .education, .work {
 	display: inline-block;
+	width: 45%;
 }
 
 .work {
