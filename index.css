@@ -10,6 +10,40 @@ img {
 	object-fit: contain;
 }
 
+
+nav {
+	overflow: hidden;
+	color: white;
+	display: flex;
+	width: 100%;
+	margin: 0px;
+}
+
+nav p {
+	font-family: "Verdana";
+	color: white;
+	padding: 14px 16px;
+	padding-left: 50px;
+	width: 100px;
+	text-align: center;
+	display: block;
+}
+
+nav a {
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin: auto;
+	font-family: "Verdana";
+}
+
+nav a:hover {
+  color: black;
+}
+
+
 .HomepageImg, .WorkImg, .AboutMeImg, .ContactMeImg {
 	position: relative;
 	background-attachment: fixed;
