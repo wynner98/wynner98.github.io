@@ -133,9 +133,3 @@ html, body {
 }
 
 
-/* Remove image scrolling for non-computer devices */
-@media only screen and (max-device-width: 1024px) {
-	.HomepageImg, .WorkImg, .AboutMeImg, .ContactMeImg {
-		background-attachment: scroll;
-	}
-}
