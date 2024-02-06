@@ -1,0 +1,141 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8 "Verdana";
+	color: #777;
+}
+
+
+.HomepageImg, .WorkImg, .AboutMeImg, .ContactMeImg {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.HomepageImg {
+	background-image: url("me1.png");
+	min-height: 100%;
+}
+
+
+.Homepage {
+	position: relative;
+	text-align: center;
+	padding: 15px 40px;
+	color: #ddd;
+	background-color: #232023;
+}
+
+
+.WorkImg {
+	background-image: url("me2.png");
+	min-height: 600px;
+}
+
+
+.WorkText, .AboutMeText {
+	position: relative;
+	color: #ddd;
+	background-color: #232023;
+	padding: 25px 40px;
+	text-align: left;
+}
+
+.ContactMeText {
+	position: relative;
+	color: #ddd;
+	background-color: #232023;
+	padding: 25px 40px;
+	text-align: center;
+}
+
+.WorkText p, .AboutMeText p {
+	text-align: left;
+}
+
+
+.AboutMeImg {
+	background-image: url("me3.jpg");
+	min-height: 600px;
+}
+
+.ContactMeImg {
+	background-image: url("me4.png");
+	min-height: 600px;
+}
+
+
+.HomepageLabel, .WorkLabel, .AboutMeLabel, .ContactMeLabel {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+ 	text-align: center;
+	color: #ddd;
+}
+
+
+.HomepageImg span, .WorkImg span, .AboutMeImg span, .ContactMeImg span {
+	/* background-color: #111; */
+	border-radius: 37.5px;
+	background-color: #232023;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
+.education, .work {
+	display: inline-block;
+}
+
+.work {
+	float: right;
+	margin-right: 25px;
+}
+
+.work h3, .work p {
+	text-align: right;
+}
+
+.interests, .hobbies {
+	display: inline-block;
+	width: 45%;
+}
+
+
+.hobbies {
+	float: right;
+	margin-right: 25px;
+}
+
+.hobbies h3, .hobbies p {
+	text-align: right;
+}
+
+
+.WorkText h3, .Homepage h3, .AboutMeText h3 {
+	letter-spacing: 4px;
+	font: 20px "Lato", sans-serif;
+	color: #ddd;
+	font-weight: bold;
+}
+
+.contactLinks a, .contactLinks p{
+	display: inline;
+}
+
+.ContactMeText a {
+	color: #ddd;
+}
+
+
+/* Remove image scrolling for non-computer devices */
+@media only screen and (max-device-width: 1024px) {
+	.HomepageImg, .WorkImg, .AboutMeImg, .ContactMeImg {
+		background-attachment: scroll;
+	}
+}
